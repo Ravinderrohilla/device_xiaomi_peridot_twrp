@@ -129,7 +129,8 @@ TWRP_INCLUDE_LOGCAT := true
 TW_INCLUDE_FASTBOOTD := true
 
 # Other TWRP Configurations
-TW_CUSTOM_THEME := $(DEVICE_PATH)/customui.zip
+#TW_CUSTOM_THEME := $(DEVICE_PATH)/customui.zip
+TW_THEME := portrait_hdpi
 TW_FRAMERATE := 90
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
